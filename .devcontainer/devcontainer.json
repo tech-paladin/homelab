@@ -1,0 +1,25 @@
+{
+  "name": "homelab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainer-community/devcontainer-features/k9scli.io:1": {
+      "version": "0.51.0"
+    },
+    "ghcr.io/devcontainers-extra/features/kubectl-asdf:2": {
+      "version": "1.36.2"
+    },
+    "ghcr.io/devcontainers-extra/features/pulumi:1": {
+      "version": "3.250.0"
+    },
+    "ghcr.io/devcontainers-extra/features/talosctl:1": {
+      "version": "1.13.5"
+    },
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.26.4"
+    },
+    "ghcr.io/eitsupi/devcontainer-features/nushell:0": {
+      "version": "0.113.1"
+    },
+  },
+  "runArgs": ["--name", "homelab-infra"]
+}
