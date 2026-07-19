@@ -1,0 +1,11 @@
+name: infrastructure
+description: Core infrastructure stack which includes CNI, networking, load balancing, and other core services. This is the second layer of the homelab infrastructure.
+author: Yevhenii Vasylenko
+website: https://github.com/tech-paladin/homelab
+license: MIT
+requiredPulumiVersion: ">= 3.250.0"
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: go

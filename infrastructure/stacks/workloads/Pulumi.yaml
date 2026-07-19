@@ -1,0 +1,11 @@
+name: workloads
+description: Workloads stack which includes the actual workloads running on the homelab infrastructure. This is the third layer of the homelab infrastructure.
+author: Yevhenii Vasylenko
+website: https://github.com/tech-paladin/homelab
+license: MIT
+requiredPulumiVersion: ">= 3.250.0"
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: go
